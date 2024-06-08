@@ -48,7 +48,8 @@ let partJSON1 = {
 		line_linked: {
 			enable: true,
 			distance: 300,
-			color: "#9ee0ff",
+			/*color: "#9ee0ff",*/
+			color: "#000000",
 			opacity: 0.8,
 			width: 2
 		},
