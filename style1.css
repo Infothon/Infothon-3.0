@@ -23,7 +23,8 @@
   }
   
   #particles1 {
-	background:#000000;
+	/*background:#000000;*/
+	background:#376e8ffa;
 	height: 100%;
 	position: absolute; /* Change to absolute positioning */
 	top: 0; /* Position particles container at the top */
