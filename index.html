@@ -125,6 +125,23 @@
     cursor: pointer;
     z-index: 10003; /* Set a higher z-index to be above cursor-container */
 }
+.sponsors-icon {
+    position: fixed;
+    animation: bounce 2s infinite;
+    bottom: 23px;
+    right: 20px;
+    color: white;
+    padding: 1px;
+ 
+    cursor: pointer;
+    z-index: 10003; /* Set a higher z-index to be above cursor-container */
+}
+
+.notification-icon img{
+  /*background-color:  #0d0b94;*/
+  background-color:  #18043a;
+  border-radius: 50%;
+}
 
 .notification-icon i {
   
@@ -134,7 +151,7 @@
 /* Add this style for the notification modal */
 body .modal {
     z-index: 10004;
-    background-color: rgba(0, 0, 0, 0.8) !important; /* Adjust the alpha value as needed */
+    background-color: rgba(0,0,0,0.8) !important; /* Adjust the alpha value as needed */
     font-family: 'Quicksand', sans-serif;
     color: white; /* Adjust the text color as needed */
 }
@@ -150,8 +167,8 @@ body .modal-content {
   padding: 15px;
   margin-top: 25%;
   border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0,0,0, 0.5);
+  box-shadow: 0 0 10px rgba(0,0,0, 0.2);
   display: none;
   z-index: 9999;
 }
@@ -194,7 +211,8 @@ body .modal-content {
     animation: bounce 2s infinite;
     margin-bottom: 110px;
     right: 20px;
-    background-color: #0d0b94;
+    /*background-color: #0d0b94;*/
+    background-color: #18043a;
     color: white;
     padding: 20px;
     border-radius: 50%;
@@ -319,25 +337,25 @@ body .modal-content {
   <div class="attention-arrow"></div>
   <i class="fas fa-book"></i>
 </a>
-<div  class="notification-icon" style="position: fixed; bottom: 100px !important; right: 27px; color: white; text-align: center; font-family: 'Quicksand', sans-serif;">
+<div  class="notification-icon" style="position: fixed; bottom: 100px !important; right: 27px; color: white;text-align: center; font-family: 'Quicksand', sans-serif;">
   <p style="font-size: 0.3cm; margin: 0; font-weight: bolder;">Updates</p>
 </div>
 <div id="notification-icon" class="notification-icon">
   <div class="attention-arrow"></div>
   <img src="img\not.gif" alt="Notification Icon" style="width: 1.5cm; height: 1.5cm;"></div>
 </div>
-    <div  class="notification-icon" style="position: fixed; bottom: 215px !important; left: 20px; color: white; text-align: left; font-family: 'Quicksand', sans-serif;">
+    <div  class="sponsors-icon" style="position: fixed; bottom: 215px !important; left: 20px; color: white; text-align: left; font-family: 'Quicksand', sans-serif;">
   <p style="font-size: 0.5cm; margin: 0; font-weight: bolder;"> Main </p>
   <p style="font-size: 0.5cm; margin: 0; font-weight: bolder;">Sponsers</p>
-  <img src="img\sponsors\Unstop-Logo-Blue-Medium.png" alt="Notification Icon" style="width: 2.0cm; height: 2.0cm;"></div>
+  <img src="img\sponsors\Unstop-Logo-Blue-Medium.png" alt="Notification Icon" style="width: auto; height: 2.0cm;"></div>
 </div>
-<div  class="notification-icon" style="position: fixed; bottom: 115px !important; left: 20px; color: white; text-align: left; font-family: 'Quicksand', sans-serif;">
+<div  class="sponsors-icon" style="position: fixed; bottom: 115px !important; left: 20px; color: white; text-align: left; font-family: 'Quicksand', sans-serif;">
   
-  <img src="img\sponsors\xyz-logo-white.png" alt="Notification Icon" style="width: 2.0cm; height: 2.0cm;"></div>
+  <img src="img\sponsors\xyz-logo-white.png" alt="Notification Icon" style="width: auto; height: 2.0cm;"></div>
 </div>
-<div  class="notification-icon" style="position: fixed; bottom: 015px !important; left: 20px; color: white; text-align: left; font-family: 'Quicksand', sans-serif;">
+<div  class="sponsors-icon" style="position: fixed; bottom: 015px !important; left: 20px; color: white; text-align: left; font-family: 'Quicksand', sans-serif;">
  
-  <img src="img\sponsors\Untitled design.png" alt="Notification Icon" style="width: 2.0cm; height: 2.0cm;"></div>
+  <img src="img\sponsors\Untitled design.png" alt="Notification Icon" style="width: auto; height: 2.0cm;"></div>
 </div>
 <!-- Notification Modal -->
 <div class="modal fade" id="notificationModal" tabindex="-1" aria-labelledby="notificationModalLabel" aria-hidden="true">
@@ -367,7 +385,7 @@ body .modal-content {
   </div>
 </div>
 
-<footer class="text-center p-4 bg-dark text-white" style="font-family: 'Quicksand', sans-serif; background-color: rgb(61,62,83) !important;">
+<footer class="text-center p-4 bg-dark text-white" style="font-family: 'Quicksand', sans-serif; background-color:#000000!important;">
   <div class="container">
       <!-- Logo and Text -->
       <div class="row mb-4">
